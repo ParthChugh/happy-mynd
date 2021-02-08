@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/happy-mynd/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/happy-mynd/static/js/main.af34132c.chunk.js",
+    "main.js.map": "/happy-mynd/static/js/main.af34132c.chunk.js.map",
+    "runtime-main.js": "/happy-mynd/static/js/runtime-main.7315c089.js",
+    "runtime-main.js.map": "/happy-mynd/static/js/runtime-main.7315c089.js.map",
+    "static/js/2.3d6ff1a6.chunk.js": "/happy-mynd/static/js/2.3d6ff1a6.chunk.js",
+    "static/js/2.3d6ff1a6.chunk.js.map": "/happy-mynd/static/js/2.3d6ff1a6.chunk.js.map",
+    "static/js/3.4ba7c779.chunk.js": "/happy-mynd/static/js/3.4ba7c779.chunk.js",
+    "static/js/3.4ba7c779.chunk.js.map": "/happy-mynd/static/js/3.4ba7c779.chunk.js.map",
+    "index.html": "/happy-mynd/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/happy-mynd/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.3d6ff1a6.chunk.js.LICENSE.txt": "/happy-mynd/static/js/2.3d6ff1a6.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/happy-mynd/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7315c089.js",
+    "static/js/2.3d6ff1a6.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.af34132c.chunk.js"
+  ]
+}
