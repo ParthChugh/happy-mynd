@@ -1,3 +1,4 @@
+import {useRef} from 'react';
 import logo from './assets/logo-with-name.png';
 import emotions from './assets/emotions.png';
 import Mentorship from './mentorship';
@@ -5,6 +6,11 @@ import AddData from './addData';
 import './App.scss';
 
 function App() {
+  const myRef = useRef(null)
+  const addItems = useRef(null)
+  const executeScroll = () => myRef.current.scrollIntoView()   
+  const executeScrollToAddItems = () => addItems.current.scrollIntoView()   
+  
   return (
     <div>
       <div className="d-flex justify-content-between App ">
@@ -17,7 +23,7 @@ function App() {
               <span className="App-header">Life is filled with <span style={{ color: '#FF5757' }}>Happiness</span> Lets explore it !</span>
               <span className="App-sub-heading">We provide you a Mentorship program to make your life better and help you to discover the positive inner side of you</span>
               <div>
-                <button className="global-button"><span>Explore more</span></button>
+                <button className="global-button" onClick={executeScroll}><span>Explore more</span></button>
               </div>
             </div>
           </div>
@@ -26,8 +32,8 @@ function App() {
           <img src={emotions} alt="logo" className="emotions" />
         </div>
       </div>
-      <Mentorship />
-      <AddData />
+      <Mentorship reference={myRef} onClick={executeScrollToAddItems}/>
+      <AddData reference={addItems} />
     </div>
     
   );
