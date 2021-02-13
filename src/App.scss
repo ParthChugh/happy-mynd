@@ -21,9 +21,7 @@
 .addData-image {
   // width: 50%;
 }
-.image-container {
-  width: 100%;
-}
+
 .emotions {
   width: 0%;
 }
@@ -36,12 +34,18 @@
 .addData-image {
   width: 0%;
 }
+.emotions-inner {
+  width: 100%;
+}
 @media (min-width: 768px) {
   .emotions {
     width: 100%;
   }
+  .emotions-inner {
+    width: 0%;
+  }
   .image-container {
-    width: 70%;
+    width: 100%;
   } 
   .App-component {
     padding-left: 0px;

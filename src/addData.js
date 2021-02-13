@@ -19,8 +19,9 @@ function AddData({reference}) {
         <img src={emotions} alt="logo" className="addData-image" />
       </div>
       
-      <div className="flex-column d-flex App-component  mentorship-main-component" style={{paddingLeft: 40}}>
-        <div className="d-flex flex-column mentorship-main-component align-items-center">
+      <div className="flex-column d-flex" >
+        <img src={emotions} alt="logo" className="img-fluid emotions-inner" />  
+        <div className="d-flex flex-column mentorship-main-component align-items-center" style={{paddingLeft: 40}}>
           <div className="d-flex flex-column">
             <span className="App-header">Lets <span style={{ color: '#FF5757' }}>Connect</span></span>
             <span className="App-sub-heading">In-order to provide you a mentorship program we must know the people who are interested to participate</span>

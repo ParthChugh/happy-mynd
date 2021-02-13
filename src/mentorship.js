@@ -8,6 +8,7 @@ function Mentorship({reference, onClick}) {
         <img src={emotions} alt="logo" className="mentorship" />
       </div>
       <div className="App-main-component flex-wrap">
+        <img src={emotions} alt="logo" className="img-fluid emotions-inner" />
         <div className="flex-column d-flex App-component ">
           <div className="d-flex flex-column ">
             <span className="App-header"><span style={{ color: '#FF5757' }}>Mentorship</span>- Program </span>
