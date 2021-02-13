@@ -11,16 +11,76 @@
 .App-header {
   text-align: left;
   font: normal normal 600 25px 'Montserrat';
-  letter-spacing: 0px;
+  letter-spacing: 1px;
   flex: 1;
+  line-height: 40px;
+}
+.App-main-component {
+  padding-left: 20px;
+} 
+.addData-image {
+  // width: 50%;
+}
+.image-container {
+  width: 100%;
+}
+.emotions {
+  width: 0%;
+}
+.image-container {
+  width: 0%;
+}
+.mentorship {
+  width: 0%; 
+}
+.addData-image {
+  width: 0%;
+}
+@media (min-width: 768px) {
+  .emotions {
+    width: 100%;
+  }
+  .image-container {
+    width: 70%;
+  } 
+  .App-component {
+    padding-left: 0px;
+    padding-top: 90px;
+    padding-right: 0px;
+  }
+  .mentorship {
+    width: 100%; 
+    padding-left: 60px;
+  }
+  .addData-image {
+    width: 70%; 
+    // padding-left: 60px;
+  }
+}
+.mentorship-container {
+  margin-top: 100px
+}
+.addData-container {
+  margin-top: 150px
+}
+
+.App-component {
+  padding-left: 20px;
+  padding-top: 90px;
+  padding-right: 20px;
+  // width: 70%;
+  // width: 20%;
 }
 
 .App-sub-heading {
   text-align: left;
+  margin-top: 20px;
   font: normal normal normal 15px Montserrat;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
+  line-height: 25px;
+  margin-bottom: 40px;
 }
 
 .global-button {
