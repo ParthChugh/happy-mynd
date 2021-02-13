@@ -1,4 +1,6 @@
-import {useRef} from 'react';
+/* global gapi */
+
+import {useRef, useEffect} from 'react';
 import logo from './assets/logo-with-name.png';
 import emotions from './assets/emotions.png';
 import Mentorship from './mentorship';
@@ -11,6 +13,26 @@ function App() {
   const executeScroll = () => myRef.current.scrollIntoView()   
   const executeScrollToAddItems = () => addItems.current.scrollIntoView()   
   
+  const initClient =()=> { //provide the authentication credentials you set up in the Google developer console
+    gapi.client.init({
+      'apiKey': "AIzaSyDY8xeTg3sEYWRSorpCRnH1cW_dA1D_cms",
+      'clientId': "684833227999-vlje4f6f0m9gbq0hrag3a4rsdsrcj9o9.apps.googleusercontent.com",
+      'scope': ['https://www.googleapis.com/auth/spreadsheets'],
+      'discoveryDocs': ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
+    }).then(()=> {
+      console.log('is signed in', )
+      // gapi.auth2.getAuthInstance().isSignedIn.listen(updateSignInStatus); //add a function called `updateSignInStatus` if you want to do something once a user is logged in with Google
+      // this.updateSignInStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+    });
+  }
+  const handleClientLoad = () => {
+    gapi.load('client:auth2', initClient);
+  }
+  
+  useEffect(() => {
+    handleClientLoad()
+  })
+
   return (
     <div>
       <div className="d-flex justify-content-between App ">
