@@ -1,3 +1,4 @@
+import {useState} from 'react';
 import emotions from './assets/section3.png';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
@@ -12,7 +13,12 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function AddData({reference}) {
+  const [state, setState] = useState({})
   const classes = useStyles();
+  const onSubmit = (event) => {
+    event.preventDefault();
+    console.log('here')
+  }
   return (
     <div className="d-flex justify-content-between addData-container" style={{marginBottom: 100}} ref={reference}>
       <div className="image-container">
@@ -25,19 +31,56 @@ function AddData({reference}) {
           <div className="d-flex flex-column">
             <span className="App-header">Lets <span style={{ color: '#FF5757' }}>Connect</span></span>
             <span className="App-sub-heading">In-order to provide you a mentorship program we must know the people who are interested to participate</span>
-            <form className={classes.root} noValidate autoComplete="off" style={{marginBottom: 40,}}>
-              <TextField id="standard-basic" label="First Name" />
-              <TextField id="standard-basic" label="Last Name" />
-              <TextField id="standard-basic" label="Age" />
-              <TextField id="standard-basic" label="Ph-no" />
-              <TextField id="standard-basic" label="Email" />
-              
+            <form className={classes.root} autoComplete="off" style={{marginBottom: 40,}} onSubmit={onSubmit}>
+              <TextField 
+                id="standard-basic" 
+                required 
+                onChange={(data) =>setState({...state, "first_name": data})}
+                label="First Name"
+              />
+              <TextField 
+                required 
+                id="standard-basic" 
+                label="Last Name"  
+                onChange={(data) =>setState({...state, "last_name": data})}
+              />
+              <TextField 
+                required 
+                id="standard-basic" 
+                label="Age" 
+                type="number"
+                InputLabelProps={{
+                  shrink: true,
+                }}
+                onChange={(data) =>setState({...state, "age": data})}
+              />
+              <TextField 
+                required 
+                id="standard-basic" 
+                label="Ph-no"       
+                type="number"
+                InputLabelProps={{
+                  shrink: true,
+                }}
+                onChange={(data) =>setState({...state, "phone": data})}  
+              />
+              <TextField 
+                required 
+                type="email"
+                name="email"
+                autoComplete="email"
+                id="standard-basic" 
+                label="Email" 
+                onChange={(data) =>setState({...state, "email": data})}
+              />
+              <div>
+                <button className="global-button" type="submit"><span>Submit</span></button>
+              </div>
             </form>
+            
           </div>
           
-          <div>
-            <button className="global-button"><span>Submit</span></button>
-          </div>
+          
         </div>
       
       </div>
