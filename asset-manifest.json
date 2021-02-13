@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/happy-mynd/static/css/main.08d3d30d.chunk.css",
-    "main.js": "/happy-mynd/static/js/main.13a50229.chunk.js",
-    "main.js.map": "/happy-mynd/static/js/main.13a50229.chunk.js.map",
+    "main.js": "/happy-mynd/static/js/main.bf4775ac.chunk.js",
+    "main.js.map": "/happy-mynd/static/js/main.bf4775ac.chunk.js.map",
     "runtime-main.js": "/happy-mynd/static/js/runtime-main.1eaee69b.js",
     "runtime-main.js.map": "/happy-mynd/static/js/runtime-main.1eaee69b.js.map",
     "static/js/2.c90ec046.chunk.js": "/happy-mynd/static/js/2.c90ec046.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.1eaee69b.js",
     "static/js/2.c90ec046.chunk.js",
     "static/css/main.08d3d30d.chunk.css",
-    "static/js/main.13a50229.chunk.js"
+    "static/js/main.bf4775ac.chunk.js"
   ]
 }
