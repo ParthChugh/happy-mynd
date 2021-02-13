@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/happy-mynd/static/css/main.7971d4a3.chunk.css",
-    "main.js": "/happy-mynd/static/js/main.bf4775ac.chunk.js",
-    "main.js.map": "/happy-mynd/static/js/main.bf4775ac.chunk.js.map",
-    "runtime-main.js": "/happy-mynd/static/js/runtime-main.1eaee69b.js",
-    "runtime-main.js.map": "/happy-mynd/static/js/runtime-main.1eaee69b.js.map",
-    "static/js/2.c90ec046.chunk.js": "/happy-mynd/static/js/2.c90ec046.chunk.js",
-    "static/js/2.c90ec046.chunk.js.map": "/happy-mynd/static/js/2.c90ec046.chunk.js.map",
-    "static/js/3.556ccce8.chunk.js": "/happy-mynd/static/js/3.556ccce8.chunk.js",
-    "static/js/3.556ccce8.chunk.js.map": "/happy-mynd/static/js/3.556ccce8.chunk.js.map",
+    "main.js": "/happy-mynd/static/js/main.3df6a407.chunk.js",
+    "main.js.map": "/happy-mynd/static/js/main.3df6a407.chunk.js.map",
+    "runtime-main.js": "/happy-mynd/static/js/runtime-main.aef15fc5.js",
+    "runtime-main.js.map": "/happy-mynd/static/js/runtime-main.aef15fc5.js.map",
+    "static/js/2.df809720.chunk.js": "/happy-mynd/static/js/2.df809720.chunk.js",
+    "static/js/2.df809720.chunk.js.map": "/happy-mynd/static/js/2.df809720.chunk.js.map",
+    "static/js/3.e4764607.chunk.js": "/happy-mynd/static/js/3.e4764607.chunk.js",
+    "static/js/3.e4764607.chunk.js.map": "/happy-mynd/static/js/3.e4764607.chunk.js.map",
     "index.html": "/happy-mynd/index.html",
     "static/css/main.7971d4a3.chunk.css.map": "/happy-mynd/static/css/main.7971d4a3.chunk.css.map",
-    "static/js/2.c90ec046.chunk.js.LICENSE.txt": "/happy-mynd/static/js/2.c90ec046.chunk.js.LICENSE.txt",
+    "static/js/2.df809720.chunk.js.LICENSE.txt": "/happy-mynd/static/js/2.df809720.chunk.js.LICENSE.txt",
     "static/media/emotions.b073eaa2.png": "/happy-mynd/static/media/emotions.b073eaa2.png",
     "static/media/logo-with-name.4477470d.png": "/happy-mynd/static/media/logo-with-name.4477470d.png",
     "static/media/mentorship.76d05f08.png": "/happy-mynd/static/media/mentorship.76d05f08.png",
     "static/media/section3.74e218ae.png": "/happy-mynd/static/media/section3.74e218ae.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1eaee69b.js",
-    "static/js/2.c90ec046.chunk.js",
+    "static/js/runtime-main.aef15fc5.js",
+    "static/js/2.df809720.chunk.js",
     "static/css/main.7971d4a3.chunk.css",
-    "static/js/main.bf4775ac.chunk.js"
+    "static/js/main.3df6a407.chunk.js"
   ]
 }
