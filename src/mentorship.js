@@ -1,7 +1,6 @@
 import emotions from './assets/mentorship.png';
 
 function Mentorship({reference, onClick}) {
-  console.log("ref1341", reference)
   return (
     <div className="d-flex justify-content-between mentorship-container" ref={reference}>
       <div className="image-container">
