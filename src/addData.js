@@ -20,7 +20,7 @@ function AddData({reference}) {
     setLoading(true)
     
     const googleFormUrl = process.env.REACT_APP_document_file
-    const CORS_PROXY = 'https://cors-anywhere.herokuapp.com/'
+    const CORS_PROXY = 'http://cors-anywhere.herokuapp.com/'
     const first_name=process.env.REACT_APP_first_name
     const last_name=process.env.REACT_APP_last_name
     const age=process.env.REACT_APP_age
