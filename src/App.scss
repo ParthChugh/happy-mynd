@@ -70,7 +70,7 @@
 
 .App-component {
   padding-left: 20px;
-  padding-top: 90px;
+  // padding-top: 90px;
   padding-right: 20px;
   // width: 70%;
   // width: 20%;
@@ -93,6 +93,8 @@
   border-color: #FF5757 ;
   opacity: 1;
   padding: 5px 20px 5px 20px;
+  border: none;
+  // background: none;
   span {
     text-align: left;
     font: normal normal normal 15px Montserrat;

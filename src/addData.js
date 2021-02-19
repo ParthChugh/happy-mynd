@@ -88,9 +88,9 @@ function AddData({reference}) {
                 label="Age" 
                 value={state.age} 
                 type="number"
-                InputLabelProps={{
-                  shrink: true,
-                }}
+                // InputLabelProps={{
+                //   shrink: true,
+                // }}
                 onChange={(data) =>setState({...state, "age": data.target.value})}
               />
               <TextField 
@@ -99,9 +99,9 @@ function AddData({reference}) {
                 label="Ph-no"       
                 type="number"
                 value={state.phone} 
-                InputLabelProps={{
-                  shrink: true,
-                }}
+                // InputLabelProps={{
+                //   shrink: true,
+                // }}
                 onChange={(data) =>setState({...state, "phone": data.target.value})}  
               />
               <TextField 
@@ -114,7 +114,7 @@ function AddData({reference}) {
                 label="Email" 
                 onChange={(data) =>setState({...state, "email": data.target.value})}
               />
-              <div>
+              <div style={{marginTop: 30}}>
                 {!loading &&
                   <button className="global-button" type="submit"><span>Submit</span></button>
                 }
